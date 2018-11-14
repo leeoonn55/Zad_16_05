@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
-    "start": "webpack-dev-server --inline --hot --config ./webpack.config.js"
+    "start": "webpack --env development",
+    "build": "webpack --env production"    
   },
   "repository": {
     "type": "git",
